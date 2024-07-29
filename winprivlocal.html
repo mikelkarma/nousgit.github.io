@@ -151,12 +151,14 @@
             <pre><code class="language-bash">ren Utilman.exe Utilman1.exe  # Renomeei o arquivo para manter um backup
 copy cmd.exe Utilman.exe # Copiei cmd.exe para o arquivo de inicialização da acessibilidade</code></pre>
             <p>
-                Após a substituição, reiniciei o Windows. Na tela de login, no canto inferior direito, há uma opção para configurar a acessibilidade. Ao clicar nessa opção, em vez de executar Utilman.exe, o sistema executaria o nosso cmd. Como a opção de acessibilidade é executada com privilégios, nosso cmd também terá essas permissões. Com o nosso cmd executado, coloquei os seguintes comandos:
+                Após a substituição, reiniciei o Windows. Na tela de login, no canto inferior direito, há uma opção para configurar a acessibilidade. Ao clicar nessa opção, em vez de executar Utilman.exe, o sistema executaria o nosso cmd. Como a opção de acessibilidade é executada com privilégios, nosso cmd também terá essas permissões. Com o nosso cmd executado, coloquei o seguinte comando:
             </p>
             <pre><code class="language-bash">control userpasswords2</code></pre>
             <p>
                 Esse comando abriu um controlador de usuários, onde selecionei as opções avançadas, escolhi o usuário cliente e alterei suas permissões de "público" para "administrador". Com isso, obtivemos privilégios administrativos no Windows e pude realizar as ações desejadas.
             </p>
+            <br>
+            <br>
         </article>
     </main>
 
